@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pc Build</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">PC Build LAB</div>
+      <div class="total-price-box">
+        Current Build Total: <span id="total-amount">0</span> €
+      </div>
+    </header>
+    <main class="container">
+      <aside class="steps-menu">
+        <h3 class="component">Components</h3>
+        <h2></h2>
+        <ul class="step-list">
+          <li class="step-item active">1. CPU</li>
+          <li class="step-item">2. Motherboard</li>
+          <li class="step-item">3. GPU</li>
+          <li class="step-item">4. RAM</li>
+          <li class="step-item">5. PSU</li>
+        </ul>
+      </aside>
+      <section class="shop-container">
+        <h2>Select Component</h2>
+        <div class="products-grid"></div>
+      </section>
+      <aside class="build-summary">
+        <h3 class="my-build">My Build</h3>
+        <div id="selected-item">
+          <img
+            class="selected-product-img"
+            src="img/E910_AMD_R5-5600_01.png"
+            alt=""
+          />
+          <div class="selected-info">
+            <p>Ryzen 5 5600</p>
+            <span>Price</span>
+          </div>
+        </div>
+      </aside>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
