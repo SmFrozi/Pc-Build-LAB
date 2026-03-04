@@ -61,6 +61,7 @@ header {
 .active {
   background-color: rgb(37, 175, 255);
   color: rgb(0, 0, 0);
+  border-color: rgb(37, 175, 255);
 }
 .product-card {
   background-color: rgb(41, 41, 41);
@@ -95,6 +96,7 @@ header {
   padding: 10px;
   border-radius: 10px;
   border: 1px solid rgb(62, 62, 62);
+  margin: 10px 0px;
 }
 
 .selected-product-img {
